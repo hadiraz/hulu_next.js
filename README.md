@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -37,3 +38,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # hulu_next.js
 This is hulu 2.0( a movie site )  that created with next.js.
 >>>>>>> 56d65ecdcd7adb0e5f41baf241ae65c65c345c79
+=======
+## hulu 2.0
+<br>
+This is hulu2.0 that created with next.js and tailwind.
+>>>>>>> 7e9de03439105081edb9c6eefe96b6fa9006d5c0
