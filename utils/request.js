@@ -13,18 +13,18 @@ export default {
     } ,
     topRated : {
         title : "Top Rated" ,
-        url : `/trending/all/week?api_key=${API_KEY}&language=en-US`
+        url : `/movie/top_rated?api_key=${API_KEY}&language=en-US`
     } ,
     action : {
         title : "Action" ,
-        url : `/trending/all/week?api_key=${API_KEY}&language=en-US`
+        url : `/discover/movie?api_key=${API_KEY}&with_genres=28`
     } ,
     comedy : {
         title : "Comedy" ,
-        url : `/trending/all/week?api_key=${API_KEY}&language=en-US`
+        url : `/discover/movie?api_key=${API_KEY}&with_genres=35`
     } ,
     horror : {
         title : "Horror" ,
-        url : `/trending/all/week?api_key=${API_KEY}&language=en-US`
+        url : `/discover/movie?api_key=${API_KEY}&with_genres=27`
     } ,
 }

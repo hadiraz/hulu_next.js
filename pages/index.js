@@ -7,6 +7,9 @@ import request from 'utils/request'
 import Header from '../components/Header'
 
 export default function Home({result}) {
+  useEffect(()=>{
+    alert("*please turn on your vpn*")
+  },[])
   return (
     <div>
       <Head>
