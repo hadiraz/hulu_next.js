@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "next": "12.2.5",
+    "next-on-netlify": "^3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flip-move": "^3.0.4",

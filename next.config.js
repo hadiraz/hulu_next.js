@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  target : 'serverless' ,
   reactStrictMode: true,
   swcMinify: true,
   images : {
@@ -9,6 +10,7 @@ const nextConfig = {
       "press.hulu.com"
     ]
   } ,
+
 }
 
 module.exports = nextConfig
